@@ -222,13 +222,13 @@ BRUSHED.tweetFeed = function(){
 	
     $("#ticker").tweet({
           modpath: 'js/twitter/',
-          username: "DRAKE_THOUGHTS", // Change this with YOUR ID
+          username: "UtilityTracker", // Change this with YOUR ID
           page: 1,
           avatar_size: 0,
           count: 10,
 		  template: "{text}{time}",
 		  filter: function(t){ return ! /^@\w+/.test(t.tweet_raw_text); },
-          loading_text: "loading ..."
+          loading_text: "loading ... (No Account)"
 	}).bind("loaded", function() {
 	  var ul = $(this).find(".tweet_list");
 	  var ticker = function() {
