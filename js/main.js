@@ -79,7 +79,7 @@ BRUSHED.slider = function(){
 		slides 					:  	[			// Slideshow Images
 											{image : 'img/slider-images/image01.jpg', title : '<div class="slide-content">Utility Tracker</div>', thumb : '', url : ''},
 											{image : 'img/slider-images/image02.jpg', title : '<div class="slide-content">Utility Tracker</div>', thumb : '', url : ''},
-											
+											{image : 'img/slider-images/image03.jpg', title : '<div class="slide-content">Utility Tracker</div>', thumb : '', url : ''},
 									],
 									
 		// Theme Options			   
